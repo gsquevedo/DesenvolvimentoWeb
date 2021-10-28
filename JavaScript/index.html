@@ -1,0 +1,83 @@
+<script>
+    console.log("Hello  World");
+
+    var number = 5;//in-line coment   
+    
+    /* Data types: 
+    undefined, null, boolean, string, symbol, number, and object
+    */
+    var myName = "Gabriele"; //usada em todo programa
+    let ourName = "freeCodeCamp"; //usada apenas no escopo que foi criada
+    const pi = 3.14; //nunca pode mudar
+
+    //Atribuição nas variaveis
+    var a = 5;
+    var b = 2;
+    var c = "I am a";
+
+    a = a + 1;
+    b = b + 5;
+    c = c + "String!";
+
+    var sum = 10 + 10;
+    var difference = 45 - 30;
+    var product = 5 * 5;
+    var quotient = 66 / 6;
+    var myVar = 87;
+    myVar = myVar + 1; //myVar++;
+    myVar = myVar - 1; //myVar--;
+
+    var ourDecimal = 5.7;
+    // var product = 2.0 * 1.5;
+    // var quotient = 4.4 / 2.0
+
+    var remainder;
+    remainder = 11 % 3;
+    console.log(remainder);
+
+    // a += 12; a -= 12; a *= 12; a /= 12;
+    // b += 9;  b -= 9;  b *= 9;  b /= 9;
+    // c += 7;  c -= 7;  c *= 7;  c /= 7; 
+
+    var myStr = "I am a \"double quoted\" string inside";
+    console.log(myStr);
+    myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+    console.log(myStr);
+
+    /* 
+        CODE  OUTPUT
+        \'    single quote
+        \"    double quote
+        \\    backslash
+        \n    newline
+        \r    carriage return
+        \t    tab
+        \b    backspace 
+        \f    form feed
+    */
+    myStr = "FirstLine\n\t\\SecondLine\nThurdLine\n";
+    console.log(myStr); 
+    myStr = "This is the start " + " This is the end";
+    console.log(myStr);
+    myStr += " I come second.";
+    console.log(myStr);
+
+    var ourStr = "Hello, our name is " + myName + ", how are you?";
+    console.log(ourStr);
+
+    var someAdjective = "worthwhile";
+    myStr = "Learning to code is ";
+    myStr += someAdjective;
+    console.log(myStr);
+
+    var firstNameLegth = myName.length;
+    console.log(firstNameLegth);
+
+    var firstLetterOfFirstName = "";
+    firstLetterOfFirstName = myName[0];
+    console.log(firstLetterOfFirstName);
+
+    var lastLetterOfFirstName = myName[firstNameLegth - 1];
+    console.log(lastLetterOfFirstName);
+
+</script>
